@@ -2,7 +2,6 @@
   "name": "esbuild_gql",
   "version": "1.0.0",
   "description": "bare node, esbuild and gql apollo server",
-  "main": "index.js",
   "type": "commonjs",
   "license": "MIT",
   "scripts": {
