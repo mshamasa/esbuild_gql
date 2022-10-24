@@ -5,7 +5,7 @@
   "type": "commonjs",
   "license": "MIT",
   "scripts": {
-    "build": "esbuild src/server.ts --bundle --platform=node --target=node16 --external:./node_modules/* --outfile=build/index.js --analyze=verbose",
+    "build": "esbuild src/server.ts --bundle --platform=node --target=node16 --external:./node_modules/* --external:@graphql-tools/merge --outfile=build/index.js --analyze=verbose",
     "start": "ts-node src/server.ts",
     "prod": "node build/index.js"
   },
